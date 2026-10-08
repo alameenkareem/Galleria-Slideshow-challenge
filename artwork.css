@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 40px;
+  background: #fff;
+  color: #000;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.page-header h1 {
+  font-family: Georgia, serif;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+.page-header p {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #777;
+  font-weight: bold;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: #e5e5e5;
+}
+
+.artwork-page {
+    position: relative;
+    margin-top: 70px;
+    height: auto;
+}
+
+.artwork-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.year {
+    font-family: Georgia, serif;
+    font-size: 9rem;
+    color: #f1f1f1;
+    margin-left: 55%;
+}
+
+.description {
+  width: 45%;
+  margin-left: 55%;
+  margin-top: -70px;
+}
+
+.description p {
+  font-family: Georgia, serif;
+  color: #777;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.source-link {
+  display: block;
+  margin-top: 90px;
+  color: #777;
+  text-decoration: underline;
+}
+.artwork-info p {
+    margin-top: 15px;
+    color: #777;
+    font-size: 14px;
+}
+
+.artwork-image {
+  position: relative;
+}
+
+.artist-image {
+  position: absolute;
+  right: 650px;
+  bottom: -80px;
+  width: 120px;
+}
+
+.artwork-image >
+img:first-child {
+  width:350px;
+  max-width: 100%;
+  display: block;
+}
+
+.artwork-title {
+  position: absolute;
+  top: 10px;
+  right: 580px
+}
+
+.artwork-title h2 {
+  font-family: Georgia, serif;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.artwork-title p {
+  margin-top: 15px;
+  color: #777;
+  font-size: 14px;
+}
+
+.artwork-divider {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin-top: 150px;
+}
+
+.artwork-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.artwork-name h2{
+  margin: 0;
+}
+
+.artwork-name p {
+  margin: 5px 0 0;
+}
+
+.artwork-navigation{
+  display: flex;
+  gap: 15px;
+}
+
+.artwork-navigation button {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: none;
+  background: white;
+  color: black;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
