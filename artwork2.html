@@ -17,14 +17,14 @@
 
   <main class="artwork-page2">
     <section class="artwork-image2">
-      <img src="assets/Girl.png" alt="Girl with a pearl earring">
+      <img src="assets/girl2.png" alt="Girl with a pearl earring">
       <div class="artwork-title2">
         <h2>Girl with a pearl earring</h2>
         <p>Johannes Vermeer</p>
       </div>
 
       <img class="artist-image2" 
-      src="assets/van_gogh_artist.png" alt="Vincent Van Gogh">
+      src="assets/girlartist.png" alt="Johannes Vermeer">
     </section>
 
     <hr class="artwork-divider2">
@@ -37,12 +37,16 @@
 
       <div class="artwork-navigation2">
         <button
-        onclick="openArtwork()">&larr;</button>
+        onclick="previousArtwork()">&larr;</button>
         <button
-        onclick="openArtwork()">&rarr;</button>
+        onclick="nextArtwork()">&rarr;</button>
       </div>
       <script>
-  function openArtwork() {
+  function previousArtwork() {
+    window.location.href = 
+    "artwork.html" ;
+  }
+  function nextArtwork() {
     window.location.href = 
     "artwork3.html" ;
   }
@@ -50,10 +54,11 @@
     </div>
 
     <section class="artwork-info2">
-      <div class="year2">1889</div>
+      <div class="year2">1665</div>
       <div class="description2">
         <p>
-          Although The Starry Night was painted during the day in Van Gogh's ground-floor studio, it would be inaccurate to state that the picture was painted from memory. The view has been identified as the one from his bedroom window, facing east, , a view which Van Gogh painted variations of no fewer than twenty-one times, including The Starry Night. "Through the iron-barred window," he wrote to his brother, Theo, around 23 May 1889, "I can see an enclosed square of wheat ... above which, in the morning, I watch the sun rise in all its glory."
+          1665
+The painting is a tronie, the Dutch 17th-century description of a 'head' that was not meant to be a portrait. It depicts a European girl wearing an exotic dress, an oriental turban, and what was thought to be a very large pearl as an earring. In 2014, Dutch astrophysicist Vincent Icke raised doubts about the material of the earring and argued that it looks more like polished tin than pearl on the grounds of the specular- reflection, the pear shape and the large size of the earring.
         </p>
         <a class="source-link2" href="#">GO TO SOURCE</a>
       </div>
