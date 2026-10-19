@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Night Cafe | Galleria</title>
+    <link rel="stylesheet" href="artwork10.css">
+</head>
+<body>
+    <header class="page-header10">
+    <h1>galleria</h1>
+
+    <p>STOP SLIDESHOW</p>
+  </header>
+
+  <hr>
+
+  <main class="artwork-page10">
+    <section class="artwork-image10">
+      <img src="assets/night_cafe.png" alt="The Night Cafe">
+      <div class="artwork-title10">
+        <h2>The Night Cafe</h2>
+        <p>Vincent van Gogh</p>
+      </div>
+
+      <img class="artist-image10" 
+      src="assets/thenightcafeartist.png" alt="Vincent van Gogh">
+    </section>
+
+    <hr class="artwork-divider10">
+
+    <div class="artwork-bottom10">
+      <div class="artwork-name10">
+        <h2>The Night Cafe</h2>
+        <p>Vincent van Gogh</p>
+      </div>
+
+      <div class="artwork-navigation10">
+        <button
+        onclick="previousArtwork()">&larr;</button>
+        <button
+        onclick="nextArtwork()">&rarr;</button>
+      </div>
+      <script>
+  function previousArtwork() {
+    window.location.href = 
+    "artwork9.html" ;
+  }
+  function nextArtwork() {
+    window.location.href = 
+    "artwork11.html" ;
+  }
+</script>
+    </div>
+
+    <section class="artwork-info10">
+      <div class="year10">1888</div>
+      <div class="description10">
+        <p>
+       The Night Café (French: Le Café de nuit) is an oil painting created by Dutch artist Vincent van Gogh in September 1888 in Arles. Its title is inscribed lower right beneath the signature. The painting is owned by Yale University and is currently held at the Yale University Art Gallery in New Haven, Connecticut. The interior depicted is the Café de la Gare, 30 Place Lamartine, run by Joseph-Michel Ginoux and his wife Marie, who in November 1888 posed for Van Gogh's and Gauguin's Arlésienne; a bit later, Joseph Ginoux evidently posed for both artists, too. 
+        </p>
+          <a class="source-link10" href="#">GO TO SOURCE</a>
+      </div>
+      
+    </section>
+  </main>
+</body>
+</html>

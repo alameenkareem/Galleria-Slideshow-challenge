@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mona Lisa | Galleria</title>
+    <link rel="stylesheet" href="artwork14.css">
+</head>
+<body>
+    <header class="page-header14">
+    <h1>galleria</h1>
+
+    <p>STOP SLIDESHOW</p>
+  </header>
+
+  <hr>
+
+  <main class="artwork-page14">
+    <section class="artwork-image14">
+      <img src="assets/mona_lisa.png" alt="Mona Lisa">
+      <div class="artwork-title14">
+        <h2>Mona Lisa</h2>
+        <p>Leonardo da Vinci</p>
+      </div>
+
+      <img class="artist-image14" 
+      src="assets/monalissaartist.png" alt="Leonardo da Vinci">
+    </section>
+
+    <hr class="artwork-divider14">
+
+    <div class="artwork-bottom14">
+      <div class="artwork-name14">
+        <h2>Mona Lisa</h2>
+        <p>Leonardo da Vinci</p>
+      </div>
+
+      <div class="artwork-navigation14">
+        <button
+        onclick="previousArtwork()">&larr;</button>
+        <button
+        onclick="nextArtwork()">&rarr;</button>
+      </div>
+      <script>
+  function previousArtwork() {
+    window.location.href = 
+    "artwork13.html" ;
+  }
+  function nextArtwork() {
+    window.location.href = 
+    "artwork15.html" ;
+  }
+</script>
+    </div>
+
+    <section class="artwork-info14">
+      <div class="year14">1503</div>
+      <div class="description14">
+        <p>
+The Mona Lisa (/ˌmoʊnə ˈliːsə/; italian: La Gioconda [la dʒoˈkonda] or Monna Lisa [ˈmɔnna ˈliːza]) is a half-length portrait painting by Italian artist Leonardo da Vinci. Considered an archetypal masterpiece of the Italian Renaissance, it has been described as "the best known, the most visited, the most written about, the most sung about, the most parodied work of art in the world". The painting's novel qualities include the subject's enigmatic expression, the monumentality of the composition, the subtle modelling of forms, and the atmospheric illusionism.
+        </p>
+          <a class="source-link14" href="#">GO TO SOURCE</a>
+      </div>
+      
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Swing | Galleria</title>
+    <link rel="stylesheet" href="artwork15.css">
+</head>
+<body>
+    <header class="page-header15">
+    <h1>galleria</h1>
+
+    <p>STOP SLIDESHOW</p>
+  </header>
+
+  <hr>
+
+  <main class="artwork-page15">
+    <section class="artwork-image15">
+      <img src="assets/the_swing.png" alt="The Swing">
+      <div class="artwork-title15">
+        <h2>The Swing</h2>
+        <p>Jean-Honore Fragonard</p>
+      </div>
+
+      <img class="artist-image15" 
+      src="assets/theswingartist.png" alt="Jean-Honore Fragonard">
+    </section>
+
+    <hr class="artwork-divider15">
+
+    <div class="artwork-bottom15">
+      <div class="artwork-name15">
+        <h2>The Swing</h2>
+        <p>Jean-Honore Fragonard</p>
+      </div>
+
+      <div class="artwork-navigation15">
+        <button
+        onclick="previousArtwork()">&larr;</button>
+        <button
+        onclick="nextArtwork()">&rarr;</button>
+      </div>
+      <script>
+  function previousArtwork() {
+    window.location.href = 
+    "artwork14.html" ;
+  }
+  function nextArtwork() {
+    // nothing happens
+  }
+</script>
+    </div>
+
+    <section class="artwork-info15">
+      <div class="year15">1767</div>
+      <div class="description15">
+        <p>
+       The painting depicts an elegant young woman on a swing. A smiling young man, hiding in the bushes on the left, watches her from a vantage point that allows him to see up into her billowing dress, where his arm is pointed with hat in hand. A smiling older man, who is nearly hidden in the shadows on the right, propels the swing with a pair of ropes. The older man appears to be unaware of the young man. As the young lady swings high, she throws her left leg up, allowing her dainty shoe to fly through the air. 
+        </p>
+          <a class="source-link15" href="#">GO TO SOURCE</a>
+      </div>
+      
+    </section>
+  </main>
+</body>
+</html>

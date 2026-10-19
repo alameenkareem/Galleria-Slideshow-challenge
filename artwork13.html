@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arnolfini Portrait | Galleria</title>
+    <link rel="stylesheet" href="artwork13.css">
+</head>
+<body>
+    <header class="page-header13">
+    <h1>galleria</h1>
+
+    <p>STOP SLIDESHOW</p>
+  </header>
+
+  <hr>
+
+  <main class="artwork-page13">
+    <section class="artwork-image13">
+      <img src="assets/arnolfini.png" alt="Arnolfini Portrait">
+      <div class="artwork-title13">
+        <h2>Arnolfini Portrait</h2>
+        <p>Jan van Eyck</p>
+      </div>
+
+      <img class="artist-image13" 
+      src="assets/arnolfiniartist.png" alt="Jan van Eyck">
+    </section>
+
+    <hr class="artwork-divider13">
+
+    <div class="artwork-bottom13">
+      <div class="artwork-name13">
+        <h2>Arnolfini Portrait</h2>
+        <p>Jan van Eyck</p>
+      </div>
+
+      <div class="artwork-navigation13">
+        <button
+        onclick="previousArtwork()">&larr;</button>
+        <button
+        onclick="nextArtwork()">&rarr;</button>
+      </div>
+      <script>
+  function previousArtwork() {
+    window.location.href = 
+    "artwork12.html" ;
+  }
+  function nextArtwork() {
+    window.location.href = 
+    "artwork14.html" ;
+  }
+</script>
+    </div>
+
+    <section class="artwork-info13">
+      <div class="year13">1434</div>
+      <div class="description13">
+        <p>
+It is considered one of the most original and complex paintings in Western art, because of its beauty, complex iconography, geometric orthogonal perspective, and expansion of the picture space with the use of a mirror. According to Ernst Gombrich "in its own way it was as new and revolutionary as Donatello's or Masaccio's work in Italy. A simple corner of the real world had suddenly been fixed on to a panel as if by magic ... For the first time in history the artist became the perfect eye-witness in the truest sense of the term".
+        </p>
+          <a class="source-link13" href="#">GO TO SOURCE</a>
+      </div>
+      
+    </section>
+  </main>
+</body>
+</html>
